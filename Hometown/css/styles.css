@@ -1,0 +1,125 @@
+.Hometown{
+    text-align: center;
+    background-image: url(/images/nakuru.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+.description{
+    background-color: #f1FAEE;
+    max-width: 720px;
+    margin: 0 auto;
+    background-size: cover;
+
+}
+#items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.item{
+    width: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+img{
+    border-radius: 400px;
+    
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    left: 83px;
+    top: 59px;
+
+}
+#nakuru{
+    background-color: #1D3557;
+    color: white;
+    width: 269.82px;
+    height: 55px;
+    margin: 2em auto;
+    padding: 20px;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    border-radius: 10px;
+
+    
+
+    
+
+}
+#nak{
+    color: white;
+    background-color: #457B9D;
+    font-size: smaller;
+    font-weight: lighter;
+    border-radius: 50px;
+    width: 269.82px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+    padding: 20px;
+    
+    
+}
+body{
+    background-color: #f1FAEE;
+    display:flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+h3{
+    
+    width: 183px;
+    height: 32px;
+    top: 181px;
+
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #1D3557;
+}
+p{
+    width: 198px;
+    height: 55px;
+    left: 34px;
+    padding: 20px;
+    padding-top: 0px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #1D3557;
+
+
+}
+a{
+    color: #1D3557;
+}
+a:hover{
+    color: rosybrown;
+}
